@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8"/>
+<title>Tacobell</title>
+</head>
+<body>
+<table align=center width=75% bgcolor=#4d4d33 sortable>
+<td align=center><a href="index.html"><font color=white size=5>HOME</font></a></td>
+    <td align=center><a href="#overviw"><font color=white size=5>OVERVIEW</font></a></td>
+    <td align=center><a href="#features"><font color=white size=5>FEATURES</font></a></td>
+    <td align=center><a href="#download"><font color=white size=5>BROCHURE</font></a></td>
+  </tr>
+  <tr><td colspan="4"><img src="Royal-Endfield-stock-scrambller-himalayan-photo.jpg" height=500 width=1000></img></td></tr>
+ </table>
+ </body>
+ </html>
