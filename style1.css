@@ -1,0 +1,95 @@
+b{
+	 font-family:Courier new;
+	 font-size:30px;
+	 color:purple;
+	 
+}
+a:link,a:visited {
+    padding: 14px 25px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+	cursor: pointer;
+	-moz-border-radius: 4px; 
+-webkit-border-radius:4px; 
+box-shadow:1px 1px 2px 0 #CCCCCC;
+-moz-box-shadow: 1px 1px 2px 0 #CCCCCC;
+-webkit-box-shadow: 1px 1px 2px 0 #CCCCCC;
+}
+#pizza{
+	-moz-border-radius: 4px; 
+-webkit-border-radius:4px; 
+box-shadow:1px 1px 2px 0 #CCCCCC;
+-moz-box-shadow: 1px 1px 2px 0 #CCCCCC;
+-webkit-box-shadow: 1px 1px 2px 0 #CCCCCC;
+
+	background-color:black;
+	font-family: Courier New;
+	text-decoration:none;
+	}
+a:hover, a:active {
+   opacity:0.9; 
+}
+p,h1{
+    text-indent: 50px;
+    text-align: justify;
+    letter-spacing: 3px;
+}
+tr:hover {
+	background-color: #f5f5f5
+	}
+ #heading{
+	 color: pink;
+    text-decoration: underline;
+}
+#alink:link, a:visited {
+    background-color: none;
+    
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+.alink:hover, .alink:active {
+    color: aqua;
+}
+img{
+	border:1px solid white;
+}
+img:hover{
+	 opacity: 0.5;
+    filter: alpha(opacity=50); 
+}
+footer {
+            background-color: #333;
+            width: 100%;
+            bottom: 0;
+            position: relative;
+        }
+#tab{
+	box-shadow: 10px 10px 5px #888888;
+	border:2px solid black;
+
+	}
+#misc{
+	letter-spacing:3px;
+	text-decoration:underline;
+    font-family: "Times New Roman", Times, serif;	
+}
+#back{
+
+
+background: #A1FFCE; /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #A1FFCE , #FAFFD1); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #A1FFCE , #FAFFD1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        }
+		#aboutback{
+			
+
+background: #ee9ca7; /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #ee9ca7 , #ffdde1); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #ee9ca7 , #ffdde1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        
+		}
