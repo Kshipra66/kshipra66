@@ -16,8 +16,8 @@ document.addEventListener("DOMContentLoaded",
              
               var attendance = (res.Attend_th + res.Attend_lab)*100/200;
               var message = 
-               name + "  " + "has"
-              if (attendance<80) {
+               name + "  " + 
+                  if (attendance<80) {
                 message += "Defaulter";
               }
               else {
