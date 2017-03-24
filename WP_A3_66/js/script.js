@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded",
     document.querySelector("button")
       .addEventListener("click", function () {
         
-        // Call server to get the name
+       // Call server to get the name
  name = document.getElementById("mytext").value;
  if(name == "A")
 {
@@ -47,8 +47,9 @@ else
 
               document.querySelector("#content")
                 .innerHTML = "<h2>" + message + "</h2>";
+});
 }
-            });
+            
       });
   }
 );
