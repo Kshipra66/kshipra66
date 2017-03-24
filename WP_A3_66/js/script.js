@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded",
              
               var attendance = (res.Attend_th + res.Attend_lab)*100/200;
               var message = 
-               name + "  " + 
+               name + "  "
                   if (attendance<80) {
                 message += "Defaulter";
               }
@@ -27,7 +27,8 @@ document.addEventListener("DOMContentLoaded",
 
               document.querySelector("#content")
                 .innerHTML = "<h2>" + message + "</h2>";
-}
+});
+        }
 else
 {
   $ajaxUtils
@@ -36,7 +37,7 @@ else
              
               var attendance = (res.Attend_th + res.Attend_lab)*100/200;
               var message = 
-               name + "  " + 
+               name + "  "  
               if (attendance<80) {
                 message += "Defaulter";
               }
