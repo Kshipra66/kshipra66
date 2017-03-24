@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded",
              
               var attendance = (res.Attend_th + res.Attend_lab)*100/200;
               var message = 
-               name + "  "
+              + name + 
                   if (attendance<80) {
                 message += "Defaulter";
               }
@@ -37,7 +37,7 @@ else
              
               var attendance = (res.Attend_th + res.Attend_lab)*100/200;
               var message = 
-               name + "  "  
+               +name + "  "  
               if (attendance<80) {
                 message += "Defaulter";
               }
