@@ -1,7 +1,7 @@
 
 {
-  "Attend_th" : 75,
-  "Attend_lab": 75,
+  "Attend_th" : 60,
+  "Attend_lab": 60,
   "Conduct_th":100,
   "Conduct_lab":100
 }
